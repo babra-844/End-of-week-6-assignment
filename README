@@ -1,0 +1,59 @@
+# SpendWise – Interactive Budget Management Dashboard
+
+## Project Description
+SpendWise is a JavaScript-powered budget management application that allows users to set a budget, add multiple expenses, monitor spending, and calculate their remaining balance.
+
+The dashboard updates automatically whenever users enter new information.
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## JavaScript Concepts Implemented
+
+### 1. Variables
+Variables store the total budget and application data.
+
+### 2. Arrays
+An array called `expenses` stores multiple expense entries.
+
+### 3. Objects
+Each expense is stored as an object containing its name and amount.
+
+### 4. User Input
+HTML forms collect the budget and individual expense information.
+
+### 5. Functions
+Functions such as `calculateBalance()`, `calculateTotalExpenses()`, and `updateDashboard()` organize the application logic.
+
+### 6. Conditional Statements
+If, else if, and else statements check whether expenses are within or above the budget.
+
+### 7. Loops
+A for loop calculates total expenses and displays individual expense entries.
+
+### 8. DOM Manipulation
+JavaScript updates the dashboard and expense history directly on the webpage.
+
+### 9. Event Listeners
+Submit event listeners allow users to set budgets and add expenses without refreshing the page.
+
+## How to Run the Project
+1. Clone or download the SpendWise repository.
+2. Open the project folder.
+3. Open `index.html` in a browser.
+4. Enter your total budget.
+5. Add individual expenses.
+6. View the updated budget summary and expense history.
+
+## Project Structure
+- `index.html` – Webpage structure and input forms.
+- `style.css` – Dashboard styling.
+- `script.js` – Budget calculations and interactive functionality.
+- `README.md` – Project documentation.
+
+## Author
+Created as part of a JavaScript learning assignment.
+
+**Project Name:** SpendWise
